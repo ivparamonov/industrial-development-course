@@ -1,0 +1,46 @@
+\documentclass{../industrial-development}
+\graphicspath{{template/}}
+
+\title{Название лекции}
+\author{Иванов Иван Иванович, ИВТ-99 МО}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Название раздела 1}
+
+\subsection{Название подраздела}
+
+\begin{frame} \frametitle{Пример слайда}
+  \begin{block}{Важный факт}
+    Промышленная разработка является коллективным процессом\dots
+  \end{block}
+  
+  \begin{itemize}
+  \item Тезис 1\dots
+  \item Тезис 2\dots
+  \item Важный текст на слайдах можно \alert{выделять}\dots
+  \end{itemize}
+\end{frame}
+
+\lecturenotes
+
+Текст конспекта, относящийся к слайду с указанием источника~\cite[с.~97--99]{Brooks}.
+
+На интернет-источники можно ссылаться не по ГОСТу, но с обязательной гиперссылкой~\cite{Fowler}.
+
+\begin{thebibliography}{99}
+\bibitem{Brooks} Брукс Ф. Мифический человеко-месяц или как создаются программные системы. СПб~: Символ-плюс, 2000.
+\bibitem{Fowler} \href{https://martinfowler.com/articles/injection.html}{Fowler M. Inversion of Control Containers and the Dependency Injection pattern.}
+\end{thebibliography}
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: TeX-pdf
+%%% TeX-master: t
+%%% End: 

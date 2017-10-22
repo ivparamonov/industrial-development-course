@@ -17,7 +17,9 @@
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-# *.pdf
+example/*.pdf
+social/*.pdf
+technical/*.pdf
 
 ## Generated if empty string is given at "Please type another file name for output:"
 .pdf
@@ -218,3 +220,7 @@ TSWLatexianTemp*
 
 # expex forward references with \gathertags
 *-tags.tex
+
+# Temporary files
+auto
+*~
