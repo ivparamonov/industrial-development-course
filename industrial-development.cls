@@ -40,6 +40,9 @@
 }
 
 \newcommand{\lecturenotes}{\par\noindent\rule{0.5\textwidth}{.4pt}}
+\newcommand{\rmk}[1]{\colorbox{red}{\footnotesize\color{white}#1}}
+\renewenvironment{definition}{\begin{block}{Определение}}{\end{block}}
+\renewenvironment{example}{\begin{block}{Пример}}{\end{block}}
 
 \setbeamertemplate{sidebar right}{}
 \setbeamertemplate{footline}{%
